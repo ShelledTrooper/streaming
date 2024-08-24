@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website Title</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jost:wght@400;700&display=swap">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+
+    
+    <style>
+        
+        body {       
+            background-color: #181818; 
+            
+            align-items: center;       
+        }
+        nav {       
+            background-color: #212121; 
+            justify-content: center;        
+        }
+        .container-video-root-root {
+            margin-left: 10px;
+            max-width: 100%;
+        }
+        @media (min-width: 1800px) {
+            .container-video-root-root {
+                margin-left: 300px; /* Adjust this value to your preference */
+        }
+}
+        
+        .video-container {
+            position: absolute;
+            
+            
+            position: relative;             
+            max-width: 1300px; 
+            padding-bottom: 56.25%; /* 16:9 aspect ratio */
+            background-color: #000; /* Set the background color to black */
+        }
+        
+        .video-container video {
+            position: absolute;
+            
+            width: 100%;
+            height: 100%;            
+           
+        }
+        .grid-element {       
+            background-color: #212121   ;         
+        }
+        footer {       
+            background-color: #212121; 
+            justify-content: center;        
+        }
+        
+        .search-box {       
+            background-color: #212121   ;         
+        }
+        .video-divider {       
+            max-width: 1300px;         
+        }
+        .divider {       
+            background-color: #c5c5c5;         
+        }
+        
+
+        
+    </style>
+</head>
+
+<body class="w-screen">
+    <nav class="flex justify-between top-0 shadow-3x1 text-white w-screen">
+        <div class="px-5 xl:px-12 py-6 flex w-full items-center">
+            <a class="text-3xl font-bold font-heading" href="/">
+                PornFinder
+            </a>
+        </div>
+        
+        <!-- Responsive navbar -->
+        <a class="xl:hidden flex mr-6 items-center" href="#">
+            
+
+
+        </a>
+        <a class="py-6 px-6"  href="/search">
+            <svg fill="#fafafa" height="40px"  width="40px" version="1.1" id="Capa_1"
+                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                viewBox="0 0 490.4 490.4" xml:space="preserve" stroke="#fafafa">
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                <g id="SVGRepo_iconCarrier">
+                    <g>
+                        <path
+                            d="M484.1,454.796l-110.5-110.6c29.8-36.3,47.6-82.8,47.6-133.4c0-116.3-94.3-210.6-210.6-210.6S0,94.496,0,210.796 s94.3,210.6,210.6,210.6c50.8,0,97.4-18,133.8-48l110.5,110.5c12.9,11.8,25,4.2,29.2,0C492.5,475.596,492.5,463.096,484.1,454.796z M41.1,210.796c0-93.6,75.9-169.5,169.5-169.5s169.6,75.9,169.6,169.5s-75.9,169.5-169.5,169.5S41.1,304.396,41.1,210.796z">
+                        </path>
+                    </g>
+                </g>
+            </svg>
+        </a>
+    </nav>
+
+    
+
+<div class="container-video-root-root">
+  <div class="video-container mt-2">
+    <video class="max-w-full max-h-full" controls>
+      <source src="https://cdn.hotscope.tv/files/3p5B2DCaSN.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+  <div class="flex justify-between items-center p-4">
+    <h1 class="text-gray-200 font-jost text-3xl">leaked hottie</h1>
+    <p class="text-gray-400">0 views</p>
+  </div>
+
+  <hr class="video-divider border-gray-400 py-0.5 mt-4 px-5 h-1 border-t-1  mr-2 " />
+
+  <div class="flex justify-between ml-4 mt-4 mb-4">
+    <!-- Tags -->
+    <div class="flex space-x-2">
+        
+            <span class="bg-purple-100 text-purple-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full">TEEN</span>
+        
+            <span class="bg-purple-100 text-purple-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full">TEASE</span>
+        
+    </div>
+
+    
+
+  </div>
+
+  <h1 class="text-gray-200 font-extrabold text-3xl font-jost mb-4 b-4">Random videos </h1>
+
+  <div class="container grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-2 max-w-7xl">
+    
+    <div class="grid-element shadow-outline border-gray-900 relative">
+      <a href="/video/1">
+        <img src="https://cdn.hotscope.tv/files/thumbnail/size_thumb_5t05wzddcj.jpg" alt="teaser ">
+        <p class="text-white px-2 py-2 font-jost text-sm"> HOTSCOPE </p>
+        <hr class="py-0.5 px-0 h-1 border-gray-400 border-t-1 ml-2 mr-2 " />
+        <p class="text-white py-2 font-jost px-2">teaser </p>
+        <p class="text-gray-400 py-1 px-2">11 views</p>
+      </a>
+    </div>
+    
+    <div class="grid-element shadow-outline border-gray-900 relative">
+      <a href="/video/2">
+        <img src="https://cdn.hotscope.tv/files/thumbnail/size_thumb_QNNdnTra3E.jpg" alt="tinder hookup ">
+        <p class="text-white px-2 py-2 font-jost text-sm"> HOTSCOPE </p>
+        <hr class="py-0.5 px-0 h-1 border-gray-400 border-t-1 ml-2 mr-2 " />
+        <p class="text-white py-2 font-jost px-2">tinder hookup </p>
+        <p class="text-gray-400 py-1 px-2">1 views</p>
+      </a>
+    </div>
+    
+    <div class="grid-element shadow-outline border-gray-900 relative">
+      <a href="/video/3">
+        <img src="https://cdn.hotscope.tv/files/thumbnail/size_thumb__Rtl-oLe9i.jpg" alt="stretching her tight pussy">
+        <p class="text-white px-2 py-2 font-jost text-sm"> HOTSCOPE </p>
+        <hr class="py-0.5 px-0 h-1 border-gray-400 border-t-1 ml-2 mr-2 " />
+        <p class="text-white py-2 font-jost px-2">stretching her tight pussy</p>
+        <p class="text-gray-400 py-1 px-2">0 views</p>
+      </a>
+    </div>
+    
+    <div class="grid-element shadow-outline border-gray-900 relative">
+      <a href="/video/4">
+        <img src="https://cdn.hotscope.tv/files/thumbnail/size_thumb_GF9AcxB-sW.jpg" alt="blonde girl rides that BBC real good">
+        <p class="text-white px-2 py-2 font-jost text-sm"> HOTSCOPE </p>
+        <hr class="py-0.5 px-0 h-1 border-gray-400 border-t-1 ml-2 mr-2 " />
+        <p class="text-white py-2 font-jost px-2">blonde girl rides that BBC real good</p>
+        <p class="text-gray-400 py-1 px-2">0 views</p>
+      </a>
+    </div>
+    
+    <div class="grid-element shadow-outline border-gray-900 relative">
+      <a href="/video/5">
+        <img src="https://cdn.hotscope.tv/files/thumbnail/size_thumb_XkO736omQS.jpg" alt="cutie pie sucks dick in the morning">
+        <p class="text-white px-2 py-2 font-jost text-sm"> HOTSCOPE </p>
+        <hr class="py-0.5 px-0 h-1 border-gray-400 border-t-1 ml-2 mr-2 " />
+        <p class="text-white py-2 font-jost px-2">cutie pie sucks dick in the morning</p>
+        <p class="text-gray-400 py-1 px-2">0 views</p>
+      </a>
+    </div>
+    
+    <div class="grid-element shadow-outline border-gray-900 relative">
+      <a href="/video/6">
+        <img src="https://cdn.hotscope.tv/files/thumbnail/size_thumb_7HcZpikuQm.jpg" alt="her butty is clapping ">
+        <p class="text-white px-2 py-2 font-jost text-sm"> HOTSCOPE </p>
+        <hr class="py-0.5 px-0 h-1 border-gray-400 border-t-1 ml-2 mr-2 " />
+        <p class="text-white py-2 font-jost px-2">her butty is clapping </p>
+        <p class="text-gray-400 py-1 px-2">0 views</p>
+      </a>
+    </div>
+    
+    <div class="grid-element shadow-outline border-gray-900 relative">
+      <a href="/video/7">
+        <img src="https://cdn.hotscope.tv/files/thumbnail/size_thumb_E01DR5XJYq.jpg" alt="she just wanted a quick fuck">
+        <p class="text-white px-2 py-2 font-jost text-sm"> HOTSCOPE </p>
+        <hr class="py-0.5 px-0 h-1 border-gray-400 border-t-1 ml-2 mr-2 " />
+        <p class="text-white py-2 font-jost px-2">she just wanted a quick fuck</p>
+        <p class="text-gray-400 py-1 px-2">0 views</p>
+      </a>
+    </div>
+    
+    <div class="grid-element shadow-outline border-gray-900 relative">
+      <a href="/video/8">
+        <img src="https://cdn.hotscope.tv/files/thumbnail/size_thumb_EGe7Ppi98e.jpg" alt="Blowjob orgasm">
+        <p class="text-white px-2 py-2 font-jost text-sm"> HOTSCOPE </p>
+        <hr class="py-0.5 px-0 h-1 border-gray-400 border-t-1 ml-2 mr-2 " />
+        <p class="text-white py-2 font-jost px-2">Blowjob orgasm</p>
+        <p class="text-gray-400 py-1 px-2">0 views</p>
+      </a>
+    </div>
+    
+    <div class="grid-element shadow-outline border-gray-900 relative">
+      <a href="/video/9">
+        <img src="https://cdn.hotscope.tv/files/thumbnail/size_thumb_cq6C7cCCvp.jpg" alt="Nude Bath PPV Video">
+        <p class="text-white px-2 py-2 font-jost text-sm"> HOTSCOPE </p>
+        <hr class="py-0.5 px-0 h-1 border-gray-400 border-t-1 ml-2 mr-2 " />
+        <p class="text-white py-2 font-jost px-2">Nude Bath PPV Video</p>
+        <p class="text-gray-400 py-1 px-2">0 views</p>
+      </a>
+    </div>
+    
+    <div class="grid-element shadow-outline border-gray-900 relative">
+      <a href="/video/10">
+        <img src="https://cdn.hotscope.tv/files/thumbnail/size_thumb_AZmtbCg_yf.jpg" alt="Two girls in the bed">
+        <p class="text-white px-2 py-2 font-jost text-sm"> HOTSCOPE </p>
+        <hr class="py-0.5 px-0 h-1 border-gray-400 border-t-1 ml-2 mr-2 " />
+        <p class="text-white py-2 font-jost px-2">Two girls in the bed</p>
+        <p class="text-gray-400 py-1 px-2">0 views</p>
+      </a>
+    </div>
+    
+    <div class="grid-element shadow-outline border-gray-900 relative">
+      <a href="/video/11">
+        <img src="https://cdn.hotscope.tv/files/thumbnail/size_thumb_le1iDQQis7.jpg" alt="Hayley Maxfield alone">
+        <p class="text-white px-2 py-2 font-jost text-sm"> HOTSCOPE </p>
+        <hr class="py-0.5 px-0 h-1 border-gray-400 border-t-1 ml-2 mr-2 " />
+        <p class="text-white py-2 font-jost px-2">Hayley Maxfield alone</p>
+        <p class="text-gray-400 py-1 px-2">0 views</p>
+      </a>
+    </div>
+    
+    <div class="grid-element shadow-outline border-gray-900 relative">
+      <a href="/video/12">
+        <img src="https://cdn.hotscope.tv/files/thumbnail/size_thumb_tLdh4yBpVK.jpg" alt="two hot russians teasing on live">
+        <p class="text-white px-2 py-2 font-jost text-sm"> HOTSCOPE </p>
+        <hr class="py-0.5 px-0 h-1 border-gray-400 border-t-1 ml-2 mr-2 " />
+        <p class="text-white py-2 font-jost px-2">two hot russians teasing on live</p>
+        <p class="text-gray-400 py-1 px-2">0 views</p>
+      </a>
+    </div>
+    
+  </div>
+ 
+
+</div>
+
+
+
+    
+  
+  
+
+</body>
+
+</html>
